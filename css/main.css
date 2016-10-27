@@ -88,7 +88,7 @@ footer {
 
 /* Write your CSS here */
 
-.wrapper p:first-child:first-letter {
+.wrapper > p:first-child:first-letter {
   background-color: #666;
   border: solid #333;
   border-width: 3px 0;
@@ -104,7 +104,19 @@ footer {
 figure {
   float: right;
   width: 40%;
-  border: solid #666;
+  border: solid #333;
   border-width: 3px 0;
   padding: .4rem 0;
+}
+
+blockquote {
+  border: solid #333;
+  border-width: 3px 0;
+  color: #666;
+  font-size: 1.5rem;
+  float: left;
+  position: relative;
+  right: 150px;
+  text-align: right;
+  width: 300px;
 }
