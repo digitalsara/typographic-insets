@@ -87,3 +87,11 @@ footer {
 */
 
 /* Write your CSS here */
+
+img, blockquote {
+  float: right;
+  width: 50%;
+  border: solid #666;
+  border-width: 3px 0;
+  padding: .4rem 0;
+}
